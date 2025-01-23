@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
 const App = () => {
@@ -71,7 +71,7 @@ i'm a passionate Front-End Developer creating interactive and visually stunning 
 <section id='skills' className='pt-5'>
    <div className='container text-center'>
      <h2 className='pb-4 fw-bold'>
-       My Skill
+       My Skills
      </h2>
 
    <div className='row'>
