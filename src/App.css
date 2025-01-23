@@ -1,0 +1,145 @@
+.navbar{
+  background: linear-gradient(to right, rgb(21, 32, 39), rgb(0, 40, 105));
+  padding-top: 20px;
+  margin-left: 200px;
+  margin: 0;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.hero-section{
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(to right, rgb(21, 32, 39), rgb(0, 40, 105));
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-item{
+  text-align: end;
+  font-size: 1.3em;
+  margin-left: 10px;
+
+}
+
+.text-content{
+  max-width: 480px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.text-content.animate-text{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-btn{
+  font-size: 1.9rem;
+  padding: 12px 30px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.scroll-btn:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgb(0, 0, 0, 0.2);
+}
+
+.image-container{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.image-container.animate-image{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.large-square-image{
+  width: 400px;
+  height: 550px;
+
+  object-fit: cover;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.skill-card{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 50px;
+}
+
+.skill-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
+
+#skills{
+  background-color: rgba(45, 160, 160, 0.575);
+}
+
+.skill-card h4{
+  font-weight: bold;
+}
+
+.skill-card p{
+  font-size: 1.2em;
+}
+
+.contact-section{
+  background-color: rgba(45, 160, 160, 0.575);
+}
+
+.liner img{
+  height: 40vh;
+  width: 80%;
+}
+
+.liner{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(45, 160, 160, 0.575);
+}
+
+.contact-form-container{
+  max-width: 600px;
+  background-color: rgba(45, 160, 160, 0.575);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px black;
+}
+
+.contact-form-container input,
+.contact-form-container textarea{
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.contact-form-container button{
+  width: 100%;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  font-size: 1.8em;
+}
+
+.contact-form-container button:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width:992px) {
+  .hero-section{
+    flex-direction: column;
+  }
+}
+
