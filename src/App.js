@@ -81,18 +81,18 @@ i'm a passionate Front-End Developer creating interactive and visually stunning 
        <h4>
          HTMLS
        </h4>
-       <p className='fw-bold'>
-         Expert In Building Semantic, Accessible And Seo-Friendly HTML Structure.
+       <p>
+         Expert In Building Semantic, Accessible And Seo-Friendly HTML <br></br> Structure.
        </p>
      </div>
    </div>
    {/* skills 2 */}
    <div className='col-md-4'>
      <div className='skill-card p-4 m-2 bg-white shadow'>
-       <h4>
+       <h4 className='fw-bold'>
          CSS
        </h4>
-       <p className='fw-bold'>
+       <p>
          Experienced In Crafting Responsive, Pixel-Perfect Designs With
          Modern CSS Techniques.
        </p>
@@ -104,7 +104,7 @@ i'm a passionate Front-End Developer creating interactive and visually stunning 
        <h4>
          JAVASCRIPT
        </h4>
-       <p className='fw-bold'>
+       <p>
          Proficient In React JAVASCRIPT And Moderns ES6+
          Features To Create Dynamic Web Apps
        </p>
