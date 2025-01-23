@@ -71,7 +71,7 @@ i'm a passionate Front-End Developer creating interactive and visually stunning 
 <section id='skills' className='pt-5'>
    <div className='container text-center'>
      <h2 className='pb-4 fw-bold'>
-       My Skills
+       My Skill
      </h2>
 
    <div className='row'>
