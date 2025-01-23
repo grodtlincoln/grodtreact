@@ -151,7 +151,7 @@ i'm a passionate Front-End Developer creating interactive and visually stunning 
    </section>
 
     {/* footer */}
-    <footer className='text-center py-3 bg-dark text-white fw-bold'>
+    <footer className='text-center py-3 bg-dark text-white'>
       <p>
          &copy; 2025 Grodt Portfolio | Designed by Grodt
       </p>
